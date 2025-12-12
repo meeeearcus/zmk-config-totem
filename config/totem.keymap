@@ -10,11 +10,11 @@
 //
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
+#include <behaviors/rgbled_widget.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
-#include <behaviors/rgbled_widget.dtsi>
 
 #define BASE 0
 #define NAV  1
@@ -87,10 +87,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                                &kp Q        &kp W       &kp F            &kp P        &kp B         &kp J            &kp L        &kp U       &kp Y       &kp SEMI
-                                &mt LCTRL A  &mt LALT R  &mt LCMD S       &mt LSHFT T  &kp G         &kp M            &mt RSHFT N  &mt RCMD E  &mt RALT I  &mt RCTRL O
-&mt LS(LA(LC(LCMD))) BACKSPACE  &kp Z        &kp X       &kp C            &kp D        &kp V         &kp K            &kp H        &kp COMMA   &kp DOT     &kp FSLH     &mt RS(RA(RC(RCMD))) SQT
-                                                         &lt 4 BACKSPACE  &lt 1 TAB    &kp DELETE    &lt 3 BACKSPACE  &lt 2 SPACE  &kp ENTER
+                      &kp Q        &kp W       &kp F            &kp P        &kp B         &kp J            &kp L        &kp U       &kp Y       &kp SEMI
+                      &mt LCTRL A  &mt LALT R  &mt LCMD S       &mt LSHFT T  &kp G         &kp M            &mt RSHFT N  &mt RCMD E  &mt RALT I  &mt RCTRL O
+&kp LS(LA(LC(LCMD)))  &kp Z        &kp X       &kp C            &kp D        &kp V         &kp K            &kp H        &kp COMMA   &kp DOT     &kp FSLH     &mt RA(RS(RIGHT_CONTROL)) SQT
+                                               &lt 4 BACKSPACE  &lt 1 TAB    &kp DELETE    &lt 3 BACKSPACE  &lt 2 SPACE  &kp ENTER
             >;
         };
 
