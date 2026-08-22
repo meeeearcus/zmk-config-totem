@@ -49,7 +49,7 @@ layers:
   - DOWN ARROW
   - UP ARROW
   - RIGHT
-  - ''
+  - {t: NAV_SHORT, h: toggle}
   - Gui+A
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
