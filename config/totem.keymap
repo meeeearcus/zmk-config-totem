@@ -113,7 +113,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp LG(Q)            &kp LG(W)  &kp LG(F)  &kp GRAVE             &kp LC(LG(LS(C)))          &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT    &none
+            &kp LG(Q)            &kp LG(W)  &kp LG(F)  &kp GRAVE             &kp LC(LG(LS(C)))          &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT    &tog 1
             &kp LG(A)            &trans     &trans     &mt LEFT_SHIFT LG(T)  &kp LG(LS(V))              &mt LC(A) H   &kp J           &kp K         &mt LC(E) L  &kp ESCAPE
 &kp DELETE  &mt LG(LS(Z)) LG(Z)  &kp LG(X)  &kp LG(C)  &kp TAB               &mt LA(LG(LS(V))) LG(V)    &kp NUMBER_0  &kp LC(D)       &kp SPACE     &kp LC(U)    &kp DOLLAR  &trans
                                             &trans     &trans                &trans                     &trans        &trans          &trans
